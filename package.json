@@ -1,0 +1,25 @@
+{
+  "name": "pdf-image-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdemKabayel/pdf-image-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdemKabayel/pdf-image-converter/issues"
+  },
+  "homepage": "https://github.com/AdemKabayel/pdf-image-converter#readme",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.33.5"
+  }
+}
