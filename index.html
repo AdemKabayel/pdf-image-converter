@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adem Kabayel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">AK</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-text">Adem Kabayel</h1>
+                <p class="tagline animate-text">Software Developer</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>File Converter</h3>
+                    <p>A Python-based file conversion tool supporting PDF and image formats.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn small">Demo</a>
+                        <a href="#" class="btn small">Code</a>
+                    </div>
+                </div>
+                <!-- Add more project cards -->
+            </div>
+        </section>
+
+        <section id="blog" class="blog">
+            <h2>Latest Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <h3>Getting Started with Python</h3>
+                    <p class="date">March 15, 2024</p>
+                    <p>Learn the basics of Python programming...</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </article>
+                <!-- Add more blog cards -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get in Touch</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Adem Kabayel. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
